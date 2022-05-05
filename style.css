@@ -19,7 +19,6 @@
     display: flex;
     width: 1280px;
     margin: auto;
-    background: red;
     height: 86px;
 }
 
@@ -53,7 +52,6 @@
     justify-content: flex-end; /*네비바 오른쪽 끝에 붙이기*/
     line-height: 86px;
     width: calc(1280px - 300px);
-    background: yellow;
     color: #fff;
     padding-right: 20px;
 }
