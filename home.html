@@ -9,7 +9,7 @@
     <!--style.css로 옮김-->
 
     <div class="intro_bg"> <!--상단 구역-->
-        <div class="header"> <!--두가지로 나뉨(서치/네비바)-->
+        <div class="header" id="link_header"> <!--두가지로 나뉨(서치/네비바)-->
             <div class="search_area"> <!--왼쪽 서치구역-->
                 <form>
                     <input type="search" placeholder="Search">
@@ -17,10 +17,10 @@
                 </form>
             </div>
             <ul class="nav"> <!--오른쪽 네비게이션바 : 상단메뉴바-->
-                <li><a href="#">home</a></li> <!--클릭하면 이동하기때문에 a태그안에-->
-                <li><a href="#">about</a></li>
-                <li><a href="#">service</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#link_header">home</a></li> <!--클릭하면 이동하기때문에 a태그안에-->
+                <li><a href="#link_main_text">about</a></li>
+                <li><a href="#link_last_text">service</a></li>
+                <li><a href="#link_main_text2">contact</a></li>
             </ul>
         </div>
         <div class="intro_text">
@@ -67,7 +67,7 @@
 </ul>
 <!--introduce 끝-->
 
-<div class="main_text">
+<div class="main_text" id="link_main_text">
     <h1>ABOUT</h1>
     <div class="content">차별화 된 우리만의 약속</div>
 
@@ -101,7 +101,7 @@
 </div>
 </div>
 
-<div class="last_text">
+<div class="last_text" id="link_last_text">
     <h1>SERVICE</h1>
     <div class="text">★☆ 인스타 피드로 리뷰 작성시 10% 할인 쿠폰 증정 ☆★</div>
     <div class="service">
@@ -119,7 +119,7 @@
         </div>
     </div>
 
-    <div class="main_text2">
+    <div class="main_text2" id="link_main_text2">
         <ul>
             <li>
                 <div><h2>☎ CONTACT ☎</h2></div>
